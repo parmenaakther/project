@@ -1,0 +1,406 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.full-width{
+    width:100%;
+    background-color: black;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+/*all common css */
+.manu{
+    text-align: center;
+}
+.manu ul li{
+    display: inline-block;
+    padding-left: 20px;
+}
+ .manu ul li a{
+    position: relative;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+
+ }
+ .manu ul li a:hover{
+    color:chocolate
+ }
+ .manu ul li ul{
+    position: absolute;
+    width: 100px;
+    border-radius: 3px;
+    background-color:black;
+    opacity: 0;
+    }
+
+ .manu ul li:hover>ul{
+    opacity: 1;
+ }
+ /* manu end */
+
+ /* banner part start */
+ 
+ 
+ .banner-image{
+    background: url(../images/bannrt01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto; 
+ }
+.overly{
+    background: rgba(31, 1, 1, 0.212);
+    color: azure;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+ }
+.overly h3{
+    color: white;
+    font-size: 40px;
+ }
+.overly p{
+    color: white;
+    font-size: 20px;
+ }
+.overly button{
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    color: white;
+    padding: 10px 5px 10px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-bottom: 4px solid white;
+ }
+/* banner part end */
+ 
+/* donate part start */
+
+#donate{
+      padding-top: 80px;
+      padding-bottom: 80px;
+      }
+ .min-width{
+   margin: 0 auto;
+   width: 1170px;
+  }
+.donate-text{
+      text-align: center;
+      }
+.donate-text h3{
+      color: black;
+      font-size: 40px;
+      text-transform: capitalize;
+      }
+.donate-text p{
+      padding-top: 20px;
+      font-size: 20px;
+      font-weight: 400px;
+      color: rgb(36, 16, 68);
+      }
+.donate-button{
+      padding-top: 20px;
+       }
+.btn-donate{
+      padding: 50px 50px;
+      margin-left: 10px;
+      border: 1px solid red;
+      border-radius:5px ;
+      }
+.btn-donate:hover{
+      background-color: rgba(36, 27, 27, 0.055);
+      color: white;
+      transition: all linear 3s;
+    }
+ .other-ammount{
+      margin-top: 20px;
+      width: 100%;
+    }
+ .ammount{
+      width: 1170px;
+      height: 50px;
+      margin-left: 10px;
+      margin-top: 30px;
+      text-align: center;
+      font-size: 20px;
+    }
+    .btn-ammount{
+        margin-left: 50%;
+    }
+    .btn-ammount{
+        background-color:black;
+        font-size: 20px;
+        color: white;
+        cursor: pointer;
+        border-radius: 5px;
+        padding: 10px 5px 10px 5px;
+        border: none;
+        margin-top: 20px;
+        text-transform: uppercase;
+        border-bottom: 4px solid white;
+    }
+    
+    
+ /* donate part end */
+
+ /* card part start */
+
+ .section{
+    margin: 0 auto;
+    text-align: center;
+    height: 400px;
+ }
+
+ .card-1{  
+     border-radius: 5%;
+
+    float: left;
+    margin-left:180px;
+    width: 390px;
+    height: 400px;
+    background-color: rgb(175, 234, 238);
+ }
+ .card-1 img{
+   width: 90px;
+   height: 90px;
+ }
+ .card-1 h3{
+    color: black;
+    font-size: 40px;
+  margin-top: 100px;
+  margin-left: 50px  ;
+ }
+ .card-1 p{
+    margin-top: 30px;
+    margin-left: 50px;
+    color: black;
+    font-size: 20px;
+ }
+ 
+ .card-2{ 
+   border-radius: 5%;
+    float: left;
+    margin-left:70px;
+    width: 390px;
+    height: 400px;
+    background-color: rgb(238, 186, 202);
+ }
+ .card-2 img{
+   width: 90px;
+   height: 90px;
+ }
+ .card-2 h3{
+    color: black;
+    font-size: 40px;
+  margin-top: 100px;
+  margin-left: 40px  ;
+ }
+ .card-2 p{
+    margin-top: 30px;
+    margin-left: 50px;
+    color: black;
+    font-size: 20px;
+ }
+
+ .card-3{
+   border-radius: 5%;
+     float: left;
+    margin-left: 70px;
+    width: 390px;
+    height: 400px;
+    background-color: #dbd27e;
+
+ }
+  .card-3 img{
+   width: 90px;
+   height: 90px;
+ }
+
+ .card-3 h3{
+    color: black;
+    font-size: 40px;
+  margin-top: 100px;
+  margin-left: 50px  ;
+ }
+ .card-3 p{
+    margin-top: 10px;
+    margin-left: 50px;
+    color: black;
+    font-size: 20px;
+ }
+ /* card part end */
+
+ /* need part start */
+
+ #need{
+   text-align: center;
+   padding-top: 80px;
+   padding-bottom: 80px;
+ }
+ .min-width{
+   width: 1170px;
+   height: 600px;
+   margin: 0 auto;
+ }
+  .their-need h3{
+   margin-top: 70px;
+   font-size: 50px;
+   color: black;
+ }
+ .their-need p{
+   text-align: center;
+    padding-top: 30px;
+    
+   font-size: 20px;
+   color: black;
+ }
+
+ .their-need1{
+   margin-top: 50px;
+   float: left;
+   width: 370px;
+
+ }
+.their-need1 img{
+   border: 2px solid black;
+   border-radius: 15%;
+   width: 300px;
+   height: 150px;
+ }
+ .their-need2{
+   margin-top: 50px;
+   float: left;
+   width: 800px;
+ }
+ .their-need2 img{
+   border: 3px solid black;
+   border-radius: 5%;
+    margin-left: 50px;
+   width: 500px;
+   height: 300px;
+ }
+ /* need part end */
+
+
+/* lives part start */
+#lives{
+text-align: center;
+padding-top: 160px;
+}
+.min-width{
+   width: 1170px;
+   height: 400px;
+   margin: 0 auto;
+}
+.lives-1{
+   float: left;
+   width: 585px;
+   height: 400px;
+}
+.lives-1 h3{
+   margin-top: 80px;
+   font-size: 40px;
+}
+.lives-1 p{
+   font-size:20px ;
+   margin-top: 30px;
+}
+.lives-1 .btn{
+   font-size: 20px;
+   background-color: black;
+   color: azure;
+   padding: 10px 0px 50px 10px ;
+}
+.lives-2{
+   float: left;
+   width: 585px;
+   height: 400px;
+   margin-top: 40px;
+}
+.lives-2 img{
+   width: 400px;
+   height: 300px;
+   border-radius: 5px;
+   border: 2px solid black;
+}
+/* lives part end */
+
+
+/* update part start */
+#update{
+padding-top: 80px;
+padding-bottom: 80px;
+text-align: center;
+}
+.min-width{
+   width: 1170px;
+   height: 800px;
+   margin: 0 auto;
+}
+.get-text h3{
+   font-size: 40px;
+   color: black;
+}
+.get-text p{
+   margin-top: 60px;
+   font-size: 20px;
+   color: black;
+}
+.get-email{
+    margin-top: 40px;
+    margin-left: 80px;
+   width: 900px;
+   height: 200px;
+   background-color: antiquewhite;
+}
+.email{
+   color: white;
+   font-size: 20px;
+   margin-top: 30px;
+   width: 250px;
+   height: 30px;
+}
+.btn{ 
+   background-color: rgb(18, 2, 39);
+   color: white;
+
+   font-size: 40px;
+   margin-top: 60px;
+   width: 200px;
+   height: 50px;
+}
+/* update part end */
+
+/* last part start */
+#last-part{  
+    padding-top:80px ;
+   padding-bottom: 80px;
+
+   margin: 0 auto;
+}
+.max-width{
+   width: 100%;
+   height: 150px;
+   background-color: rgb(16, 1, 22);
+   text-align: center;
+}
+.last-part h3{
+   padding-top: 20px;
+   color:aliceblue;
+   font-size: 30px;
+}
+.last-part p{
+   color: aliceblue;
+   font-size: 20px;
+}
+/* last part end */
